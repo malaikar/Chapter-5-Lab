@@ -1,0 +1,23 @@
+Public Class frmCH5253Lab_
+    ' Program: CH 5.2 and 5.3 Lab
+    ' Name:    Malaika 
+    ' Date:    10/04/2019
+    ' Class:   CS 146
+    ' Program Def:
+    Private Sub btnAddNumbers_Click(sender As Object, e As EventArgs) Handles btnAddNumbers.Click
+        DisplaySum(1, 2)
+        Dim x As Double = 3
+        Dim y As Double = 4
+        DisplaySum(x, y)
+        DisplaySum(2 * x, y + 5)
+    End Sub
+    Sub DisplaySum(num1 As Double, num2 As Double)
+        Dim z As Double
+        z = num1 + num2
+        lstSums.Items.Add("The sum of" & num1 & "and" & num2 & "is" & z & ".")
+    End Sub
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Me.Close()
+    End Sub
+End Class
