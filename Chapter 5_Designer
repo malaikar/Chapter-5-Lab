@@ -1,0 +1,99 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frmCH5253Lab_Riley
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmCH5253Lab_Riley))
+        Me.grpAddNumbers = New System.Windows.Forms.GroupBox()
+        Me.btnAddNumbers = New System.Windows.Forms.Button()
+        Me.lstSums = New System.Windows.Forms.ListBox()
+        Me.btnExit = New System.Windows.Forms.Button()
+        Me.grpAddNumbers.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'grpAddNumbers
+        '
+        Me.grpAddNumbers.BackColor = System.Drawing.Color.SkyBlue
+        Me.grpAddNumbers.Controls.Add(Me.lstSums)
+        Me.grpAddNumbers.Controls.Add(Me.btnAddNumbers)
+        Me.grpAddNumbers.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.grpAddNumbers.Location = New System.Drawing.Point(21, 12)
+        Me.grpAddNumbers.Name = "grpAddNumbers"
+        Me.grpAddNumbers.Size = New System.Drawing.Size(279, 232)
+        Me.grpAddNumbers.TabIndex = 0
+        Me.grpAddNumbers.TabStop = False
+        Me.grpAddNumbers.Text = "EX: 5.2.1: Add Numbers"
+        '
+        'btnAddNumbers
+        '
+        Me.btnAddNumbers.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.btnAddNumbers.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnAddNumbers.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAddNumbers.Location = New System.Drawing.Point(18, 36)
+        Me.btnAddNumbers.Name = "btnAddNumbers"
+        Me.btnAddNumbers.Size = New System.Drawing.Size(234, 33)
+        Me.btnAddNumbers.TabIndex = 1
+        Me.btnAddNumbers.Text = "Display Three Sums"
+        Me.btnAddNumbers.UseVisualStyleBackColor = False
+        '
+        'lstSums
+        '
+        Me.lstSums.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lstSums.FormattingEnabled = True
+        Me.lstSums.Location = New System.Drawing.Point(18, 93)
+        Me.lstSums.Name = "lstSums"
+        Me.lstSums.Size = New System.Drawing.Size(234, 108)
+        Me.lstSums.TabIndex = 2
+        '
+        'btnExit
+        '
+        Me.btnExit.BackColor = System.Drawing.Color.SandyBrown
+        Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnExit.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExit.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.btnExit.Location = New System.Drawing.Point(704, 416)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(109, 41)
+        Me.btnExit.TabIndex = 1
+        Me.btnExit.Text = "Exit Program"
+        Me.btnExit.UseVisualStyleBackColor = False
+        '
+        'frmCH5253Lab_Riley
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.ClientSize = New System.Drawing.Size(876, 540)
+        Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.grpAddNumbers)
+        Me.Name = "frmCH5253Lab_Riley"
+        Me.Text = "Ch 5.2 and 5.3 Lab_ Riley"
+        Me.grpAddNumbers.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
+    End Sub
+
+    Friend WithEvents grpAddNumbers As GroupBox
+    Friend WithEvents btnAddNumbers As Button
+    Friend WithEvents lstSums As ListBox
+    Friend WithEvents btnExit As Button
+End Class
